@@ -7,6 +7,10 @@ class ListNode:
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        """
+            Takes input l1 and l2 --> linked lists
+            Returns output as linked list
+        """
         inputs = [l1, l2]
         input_sum = 0
         output = []
